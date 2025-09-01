@@ -60,6 +60,14 @@ class LinkedList:
                 return
             prev = current
             current = current.next
+    
+    def length(self):
+        current = self.head
+        length = 0
+        while current:
+            length += 1
+            current = current.next
+        return length
 
 node = LinkedList()
 node.append(1)
@@ -74,3 +82,4 @@ print(node.find(3))
 node.delete(2)
 
 node.print_list()
+print(node.length())
