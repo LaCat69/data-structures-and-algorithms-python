@@ -15,7 +15,7 @@
 ## Прогрес
 - [+] Лінійний пошук
 - [+] Бінарний пошук
-- [] Linked List
+- [+] Linked List
 - [] Stack & Queue
 - [] HashMap
 - [] Дерева
